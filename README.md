@@ -2,6 +2,10 @@
 The task is to detect and clssify the objects present in the aerial images by determining their bounding boxes.
 ![](https://github.com/ryanwang522/Object-Detection/blob/master/resource/intro.jpg)
 
+## Network Architecture
+I took VGG16 with batch normalization as backbone model, and further trained the last few FC layers for classification. 
+![](https://github.com/ryanwang522/Object-Detection/blob/master/resource/arch.png)
+
 ## Method
 Devide the image to 7x7(or 8x8) grids, each cell predicts two bounding-boxes and object confidence.
 ![](https://github.com/ryanwang522/Object-Detection/blob/master/resource/grid_cell.png)
@@ -28,10 +32,6 @@ OBJECT_CLASSES = {
     "swimming-pool": 14,
     "
 ```
-
-## Network Architecture
-I took VGG16 with batch normalization as backbone model, and further trained the last few FC layers for classification. 
-![](https://github.com/ryanwang522/Object-Detection/blob/master/resource/arch.png)
 
 ## Results
 The model outputs in different training stages (i.e. early, middle, final stages) are as below:
