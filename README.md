@@ -33,7 +33,7 @@ OBJECT_CLASSES = {
 I took VGG16 with batch normalization as backbone model, and further trained the last few FC layers for classification. 
 ![](https://github.com/ryanwang522/Object-Detection/blob/master/resource/arch.png)
 
-## Result
+## Results
 The model outputs in different training stages (i.e. early, middle, final stages) are as below:
 * Tennis-court
 ![](https://github.com/ryanwang522/Object-Detection/blob/master/resource/result-1.png)
