@@ -30,7 +30,8 @@ OBJECT_CLASSES = {
     "roundabout": 12,
     "soccer-ball-field": 13,
     "swimming-pool": 14,
-    "
+    "container-crane": 15
+}
 ```
 
 ## Results
